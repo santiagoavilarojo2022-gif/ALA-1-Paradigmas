@@ -1,3 +1,4 @@
+//codigo completo antes de la modularizacion, me olvide borrar el archivo
 const prompt =require('prompt-sync')();
 
 let tareas =[]; //variable global arreglo
