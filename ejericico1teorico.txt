@@ -1,0 +1,34 @@
+Parte A: JS en el Paradigma Estructurado (Kuhn)
+1. Generalización simbólica (Reglas escritas del lenguaje) En el contexto estrictamente estructurado (secuencia, selección e iteración), las reglas formales de JavaScript incluyen:
+•	Secuencia: Las instrucciones se ejecutan de arriba hacia abajo y se separan (recomendablemente) con punto y coma ;. Los bloques de código se delimitan con llaves { }.
+•	Selección: Reglas para la toma de decisiones usando estructuras como if, else if, else y switch.
+•	Iteración: Reglas para los bucles, utilizando sentencias como while, do-while y for.
+•	Declaración: El uso de palabras reservadas como let y const para manejar variables en memoria, y el uso estricto del operador de asignación = y los de comparación == o ===.
+2. Creencias de los profesionales (Por qué se percibe como "mejor")
+•	Ubicuidad y Portabilidad: Se cree que es superior porque es el "lenguaje de la web"; corre nativamente en cualquier navegador sin instalar nada extra.
+•	Flexibilidad (Tipado dinámico): Los desarrolladores valoran la velocidad para prototipar, ya que no exige declarar estrictamente si una variable es un entero, un texto o un arreglo desde el principio.
+•	Curva de aprendizaje: Se considera que tiene una barrera de entrada más baja para empezar a escribir lógica estructurada básica en comparación con lenguajes fuertemente tipados o compilados (como C o Java).
+Parte B
+
+Considera el lenguaje JavaScript acotado al paradigma de programación estructurada y analízalo en términos de los ejes propuestos para la elección de un lenguaje de programación (¿Cómo elegir un lenguaje? ) y responde:
+
+1. ¿Tiene una sintaxis y una semántica bien definida? ¿Existe documentación oficial?
+Respuesta: Si, tiene sintaxis y semantica bien definida y estandarizada, esto lo hizo la gente de ECMAScript, en cuanto a la documentacion original, no hay pero, hay una muy buena que es MDN que esta bastante acertada
+
+2. ¿Es posible comprobar el código producido en ese lenguaje?
+Respuesta: Si pero al ser un lenguaje interpretado, los errores aparecen a medida que interactuamos con la app en vez de antes de iniciarlo, tengo entendido que se utilizan herramientas externas para comprobarlo previo al uso
+
+3. ¿Es confiable?
+Respuesta: No tanto, pero si el programador es alguien disciplinado entonces si, pero alguien con pocos conocimientos puede llegar armar un quilombo enorme, esto se debe a la flexibilidad del lenguaje. Tambien porque puede generar errores silenciosos dificiles de rastrear
+
+4. ¿Es ortogonal?
+Respuesta: No, JS tiene nivel de ortogonalidad muy bajo, Tiene muchas excepciones de sus propias reglas y comportamientos que no se esperan, por ejemplo el 'null' es considerado un objeto o el tipo de dato 'NaN' es considerado un tipo numerico
+
+5. ¿Cuáles son sus características de consistencia y uniformidad?
+Respuesta: Desde ES6, JS se ha vuelto bastante uniforme en la forma que se declaran variables, manejan objetos y estructuran modulos. Pero en consistencia fue bastante inconsistente historia
+
+6. ¿Es extensible? ¿Hay subconjuntos de ese lenguaje?
+Respuesta: Si, JS es ampliamente extensible gracias al ecosistema NPM existiendo asi superconjuntos como TypeScript que agrega muchas herramientas al entorno
+
+7. El código producido, ¿es transportable?
+Respuesta: Si, es uno de los lenguajes mas transportables del mundo
